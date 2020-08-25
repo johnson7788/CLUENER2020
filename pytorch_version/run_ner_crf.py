@@ -176,7 +176,6 @@ def train(args, train_dataset, model, tokenizer):
             torch.cuda.empty_cache()
     return global_step, tr_loss / global_step
 
-
 def evaluate(args, model, tokenizer, prefix=""):
     metric = SeqEntityScore(args.id2label, markup=args.markup)
     eval_output_dir = args.output_dir
@@ -242,7 +241,6 @@ def evaluate(args, model, tokenizer, prefix=""):
         info = "-".join([f' {key}: {value:.4f} ' for key, value in entity_info[key].items()])
         logger.info(info)
     return results
-
 
 def predict(args, model, tokenizer, prefix=""):
     pred_output_dir = args.output_dir
