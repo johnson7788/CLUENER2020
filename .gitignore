@@ -4,6 +4,8 @@
 
 venv
 pytorch_version/prev_trained_model/
+pytorch_version/datasets/cluener/cached_crf-train_bert-base_128_cluener
+
 # Log file
 *.log
 *.pyc
