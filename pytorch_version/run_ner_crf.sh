@@ -1,7 +1,7 @@
 CURRENT_DIR=`pwd`
 #export BERT_BASE_DIR=$CURRENT_DIR/prev_trained_model/roberta_wwm_large_ext
 export BERT_BASE_DIR=$CURRENT_DIR/prev_trained_model/bert-base
-export GLUE_DIR=$CURRENT_DIR/CLUEdatasets
+export GLUE_DIR=$CURRENT_DIR/datasets
 export OUTPUR_DIR=$CURRENT_DIR/outputs
 TASK_NAME="cluener"
 

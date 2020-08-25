@@ -2,6 +2,7 @@
 *.class
 .idea/
 
+venv
 pytorch_version/prev_trained_model/
 # Log file
 *.log
