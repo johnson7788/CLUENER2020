@@ -20,7 +20,7 @@ python run_ner_crf.py \
   --learning_rate=3e-5 \
   --num_train_epochs=5.0 \
   --logging_steps=448 \
-  --save_steps=50 \
+  --save_steps=200 \
   --output_dir=$OUTPUR_DIR/${TASK_NAME}_output/ \
   --overwrite_output_dir \
   --seed=42

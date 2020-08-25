@@ -7,7 +7,15 @@
 ```shell
 python tools/download_clue_data.py --data_dir=./datasets --tasks=cluener
 ```
-2. 预训练模型文件格式，比如:
+1.1 安装依赖包
+
+pip install -r CLUENER2020/requirements.txt
+
+1.2 下载预训练模型
+
+python save_model.py
+
+2. 检查预训练模型文件格式，比如:
 ```text
 ├── prev_trained_model　# 预训练模型
 |  └── bert-base
