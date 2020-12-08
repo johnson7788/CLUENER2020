@@ -30,3 +30,5 @@ formbot/models/
 
 # virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
 hs_err_pid*
+pytorch_version/datasets/cluener/
+pytorch_version/outputs/cluener_output/bert/

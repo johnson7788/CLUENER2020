@@ -243,7 +243,7 @@ def evaluate(args, model, tokenizer, prefix=""):
     return results
 
 def predict(args, model, tokenizer, prefix=""):
-    pred_output_dir = args.output_dir
+    pred_output_dir = os.path.join(args.output_dir,'predict')
     if not os.path.exists(pred_output_dir) and args.local_rank in [-1, 0]:
         os.makedirs(pred_output_dir)
     test_dataset = load_and_cache_examples(args, args.task_name, tokenizer, data_type='test')

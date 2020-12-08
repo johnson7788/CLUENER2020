@@ -13,7 +13,7 @@ pip install -r CLUENER2020/requirements.txt
 
 1.2 下载预训练模型
 
-python save_model.py
+python get_premodel.py
 
 2. 检查预训练模型文件格式，比如:
 ```text
